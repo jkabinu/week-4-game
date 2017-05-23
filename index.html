@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Crystals Game</title>
+
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <h1 class="text-center">Crystals Collector Game</h1>
+    <div class="text-center">
+      <!-- Here we have our button for generating random numbers (#random-button) -->
+
+      <div class="row">
+
+      <div class="col-md-6"> 
+      <h3>Target Score<span id="number-to-guess"></span></h3>
+      
+      <button id="target-button" class="btn btn-primary btn-lg"><h1><span id="target-number"></span></h1></button>
+      </div>
+
+      <div id="crystals"></div>
+
+      <div class="col-md-6"> 
+      <h3>My Crystal Number</h3>
+      <button id="guess-button" class="btn btn-success btn-lg"><h1><span id="guess-number"></span></h1></button>
+      </div>
+
+      </div>
+
+      </div>
+    </div>
+   
+
+    <div class="container"> 
+
+    <div class="row">
+    
+    <div class="col-md-3">
+    <button>
+    <img src="assets/images/amethyst.jpg" class="img-thumbnail" alt="Amethyst gemstone" width="304" height="236">
+    	
+    </button>
+    </div>
+
+    <div class="col-md-3">
+    <button>
+    <img src="assets/images/green.jpg" class="img-thumbnail" alt="Jade gemstone" width="304" height="236">
+    	
+    </button>
+    </div>
+
+    <div class="col-md-3">
+    <button>
+    <img src="assets/images/ruby2.jpg" class="img-thumbnail" alt="Ruby gemstone" width="304" height="236">
+    	
+    </button>
+    </div>
+
+    <div class="col-md-3">
+    <button>
+    <img src="assets/images/tanzanite.jpg" class="img-thumbnail" alt="Tanzanite gemston" width="304" height="236">
+    	
+    </button>
+    </div>
+
+
+    </div>
+
+    </div>
+  
+  <!-- Here we have div called "randomNumber" where our random number will go -->
+ <!--  <h1 class="text-center" id="random-number"></h1> -->
+  
+</body>
+</html>
+
+
+
+
